@@ -7,8 +7,4 @@ const isRightTriangle = (a, b, c) => {
   }
 };
 
-console.log(isRightTriangle( 4, 3, 5 ));
-// true
-
-console.log(isRightTriangle( 1, 1, 1 ));
-// false
+module.exports(isRightTriangle);
